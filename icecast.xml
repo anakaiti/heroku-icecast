@@ -2,8 +2,8 @@
     <!-- location and admin are two arbitrary strings that are e.g. visible
          on the server info page of the icecast web interface
          (server_version.xsl). -->
-    <location>$CFG_LOCATION</location>
-    <admin>$CFG_ADMIN</admin>
+    <location></location>
+    <admin></admin>
 
     <!-- IMPORTANT!
          Especially for inexperienced users:
@@ -34,13 +34,13 @@
 
     <authentication>
         <!-- Sources log in with username 'source' -->
-        <source-password>$CFG_SOURCE_PASSWORD</source-password>
+        <source-password></source-password>
         <!-- Relays log in with username 'relay' -->
-        <relay-password>$CFG_RELAY_PASSWORD</relay-password>
+        <relay-password></relay-password>
 
         <!-- Admin logs in with the username given below -->
-        <admin-user>$CFG_ADMIN_USER</admin-user>
-        <admin-password>$CFG_ADMIN_PASSWORD</admin-password>
+        <admin-user></admin-user>
+        <admin-password></admin-password>
     </authentication>
 
     <!-- set the mountpoint for a shoutcast source to use, the default if not
@@ -65,7 +65,7 @@
 
     <!-- You may have multiple <listener> elements -->
     <listen-socket>
-        <port>$PORT</port>
+        <port></port>
         <!-- <bind-address>127.0.0.1</bind-address> -->
         <!-- <shoutcast-mount>/stream</shoutcast-mount> -->
     </listen-socket>
