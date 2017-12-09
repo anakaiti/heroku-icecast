@@ -247,11 +247,6 @@ cat<<-KqwBMvDZZT5ruPTlWSY0I6wX0A5MSv
 KqwBMvDZZT5ruPTlWSY0I6wX0A5MSv
 }
 
-echo $CFG_LOCATION
-echo $CFG_ADMIN
-echo $CFG_ADMIN_USER
-echo $CFG_ADMIN_PASSWORD
-
-render_template icecast.xml.tmpl > icecast.xml
+render_template > icecast.xml
 
 icecast2 -c icecast.xml
