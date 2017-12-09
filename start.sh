@@ -1,5 +1,4 @@
-function render_template {
-cat<<-KqwBMvDZZT5ruPTlWSY0I6wX0A5MSv
+cat<<-KqwBMvDZZT5ruPTlWSY0I6wX0A5MSv>icecast.xml
 <icecast>
     <!-- location and admin are two arbitrary strings that are e.g. visible
          on the server info page of the icecast web interface
@@ -245,8 +244,5 @@ cat<<-KqwBMvDZZT5ruPTlWSY0I6wX0A5MSv
     </security>
 </icecast>
 KqwBMvDZZT5ruPTlWSY0I6wX0A5MSv
-}
-
-render_template > icecast.xml
 
 icecast2 -c icecast.xml
