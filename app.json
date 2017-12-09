@@ -6,5 +6,35 @@
 		{
   		"url": "https://github.com/heroku/heroku-buildpack-apt"
   		}
-	]
+	],
+	"env": {
+  		"CFG_LOCATION": {
+  			"description": "The server's location.",
+  			"value": "Earth"
+  		},
+  		"CFG_ADMIN": {
+  			"description": "The server admin's email.",
+  			"value": "icemaster@localhost"
+  		},
+  		"CFG_SOURCE_PASSWORD": {
+  			"description": "The password used for broadcasting to the server.",
+  			"value": "hackme"
+  		},
+  		"CFG_RELAY_PASSWORD": {
+  			"description": "The password used for relaying.",
+  			"value": "hackme"
+  		},
+  		"CFG_ADMIN_USER": {
+  			"description": "The admin username for the web UI.",
+  			"value": "admin"
+  		},
+  		"CFG_ADMIN_PASSWORD": {
+  			"description": "The admin password for the web UI.",
+  			"value": "hackme"
+  		},
+  		"PORT": {
+  			"description": "The server's port.",
+  			"value": "8000"
+  		}
+  	}
 }
