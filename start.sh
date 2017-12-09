@@ -197,8 +197,8 @@ cat<<-KqwBMvDZZT5ruPTlWSY0I6wX0A5MSv>icecast.xml
         <!-- Note that if <chroot> is turned on below, these paths must both
              be relative to the new root, not the original root -->
         <logdir>/var/log/icecast2</logdir>
-        <webroot>~/.apt/etc/icecast2/web</webroot>
-        <adminroot>~/.apt/etc/icecast2/admin</adminroot>
+        <webroot>/app/.apt/etc/icecast2/web</webroot>
+        <adminroot>/app/.apt/etc/icecast2/admin</adminroot>
         <!-- <pidfile>/usr/share/icecast2/icecast.pid</pidfile> -->
 
         <!-- Aliases: treat requests for 'source' path as being for 'dest' path
