@@ -1,0 +1,10 @@
+{
+	"name": "heroku-icecast2",
+	"description": "Run an icecast server on heroku",
+	"repository": "https://github.com/anakaiti/line-bot-python-heroku.git",
+	"buildpacks": [
+		{
+  		"url": "https://github.com/heroku/heroku-buildpack-apt"
+  		}
+	]
+}
